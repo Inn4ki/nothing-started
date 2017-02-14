@@ -3,9 +3,6 @@ var static = require("./static/static.js");
 static = require("./static.js");
 
 
-/* THIS IS 3rd TIME*/
-
-
 http.createServer(function webRequestHandler(request, response){
     console.log(`Incoming request: ${request.url}`);
 
