@@ -9,7 +9,7 @@ http.createServer(function webRequestHandler(request, response){
         static.serveStaticAsset(request, response);
         return;
     }
-    response.end("Hello World!");
+    response.end("Hello Outer Worlds!");
 
 }).listen(3000,"127.0.0.1", () => {
     console.log(`Server is listening on localhost port 3000`);
